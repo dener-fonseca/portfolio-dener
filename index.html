@@ -1,16 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+  
+<!-- Cabeçalho do documento, onde ficam metadados e links para estilos e scripts.-->
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
-  Hello world
-  <script src="script.js"></script>
-</body>
-
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>Página Inicial</title>
+  <meta name="description" content="Portfólio profissional de Dener Fonseca: conheça minha trajetória, formação em Engenharia de Software, habilidades técnicas e projetos na área de desenvolvimento Full Stack." />
+  </head>
+  
+  <!-- Início do corpo da página, onde o conteúdo visível é colocado. -->
+  
+  <body>
+    
+    <!-- Cabeçalho principal do site que contém o logo e os links de navegação. -->
+    
+    <header>
+      <img src="assets/dener-comic.png" alt="logo Image" class="comic" />
+      <h4 class="name">Dener Fonseca</h4>
+      <nav class= "heading">
+        <ul>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="formacao.html">Minha Formação</a></li>
+          <li><a href="projetos.html">Meus Projetos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+       </nav>
+     </header>
+     
+     <!-- Seção principal da página index com saudação, apresentação e lista de habilidades. -->
+     
+     <main>
+      <section class="welcome">
+        <img src="assets/dener-black.png" alt="logo Image" class="black" />
+         <div class="welcome_text">
+      
+          <h1>Bem vindos a meu portfólio</h1>
+           <p>
+        Meu nome é Dener Xisto da Fonseca. Sou estudante de Engenharia de Software e desenvolvedor Full Stack em formação.
+        Este é o meu portfólio. Neste portfólio, vocês encontrarão informações sobre mim, meus estudos, projetos em desenvolvimento e
+        uma lista com as habilidades que venho aprimorando ao longo da minha jornada.
+          </p>
+        </div>
+  </section>
+  
+  <section class="history">
+    <h1>Minha História </h1>
+    <p>
+      Sou estudante de Engenharia de Software e estou me desenvolvendo como Full Stack Developer. Tenho investido meu tempo em aprender
+      tecnologias do front-end e back-end, com foco em criar aplicações funcionais, limpas e escaláveis. Estou constantemente evoluindo
+      minhas habilidades para acompanhar as exigências do mercado de tecnologia.
+    </p>
+    <p>
+      Antes de migrar para a área de tecnologia, trabalhei por quatro anos como Mecânico Industrial, experiência que me ensinou a ter disciplina,
+      foco em resolução de problemas e pensamento lógico. Também possuo formação técnica em Mecânica, que reforçou minhas capacidades analíticas e
+      senso de responsabilidade profissional.
+    </p>
+    <p>
+      Tenho estudado linguagens como Java, JavaScript, TypeScript, Python, C# e tecnologias como React, Node.js, Express e bancos de dados
+      SQL e NoSQL. Paralelamente, estou desenvolvendo minhas soft skills, principalmente inteligência emocional e empatia, além de aprimorar
+      meus conhecimentos nos idiomas inglês e espanhol.
+    </p>
+  </section>
+  
+  <section class="skills">
+    <h1>Minhas Habilidades </h1>
+    
+    <p>Estas são as habilidades que venho desenvolvendo e aperfeiçoando até o momento, com foco na minha formação como Desenvolvedor Full Stack.</p>
+    
+    <div class="skills-grid">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.Js</span>
+      <span>Java</span><span>C#</span><span>Python</span><span>Node.Js</span>
+      <span>Express.Js</span><span>MySQL</span><span>MongoDB</span>
+    </div>
+  </section>
+  </main>
+    
+    <!-- Rodapé com links para seções, ícones sociais (GitHub, LinkedIn, Pinterest) e texto de direitos autorais com ano atual via JavaScript. -->
+    
+    <footer>
+      <div class= "links">
+        <a href="https://github.com/dener-fonseca" class="github_link">
+          
+          <img src="/assets/github-icon.png" alt="Meu Github" class="github_image" />
+        </a>
+        
+        <a href="https://www.linkedin.com/in/dener-fonseca" class="linkedin_link">
+          
+          <img src="/assets/linkedin-icon.png" alt="Meu LinkedIn" class="linkedin_image" />
+        </a>
+       
+        <a href="https://www.pinterest.com/denerfonseca1995" class="pinterest_link">
+         
+          <img src="/assets/pinterest-icon.png" alt="Meu Pintest" class="linkedin_image" />
+        </a>
+      </div>
+      
+      <div class = "rights">
+         <p class="rights-info">
+        © Dener Xisto da Fonseca. Todos os direitos reservados. <script>document.write(new Date().getFullYear())</script></p>
+      </div>
+     </footer>
+  </body>
 </html>

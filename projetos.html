@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Cabeçalho do documento, onde ficam metadados e links para estilos e scripts.-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+<title>Meus Projetos</title>
+<meta name="description" content="Explore os principais projetos desenvolvidos por Dener Fonseca em Java, React, Node.js e outras tecnologias modernas. Soluções práticas e funcionais." />
+</head>
+
+  <!-- Início do corpo da página, onde o conteúdo visível é colocado. -->
+  
+  <body>
+
+    <!-- Cabeçalho principal do site que contém o logo e os links de navegação. -->
+
+ <header>
+   <img src="assets/dener-comic.png" alt="logo Image" class="comic" />
+   <h4 class="name">Dener Fonseca</h4>
+   <nav class="heading">
+     <ul>
+       <li><a href="index.html">Página Inicial</a></li>
+       <li><a href="formacao.html">Minha Formação</a></li>
+       <li><a href="projetos.html">Meus Projetos</a></li>
+       <li><a href="contato.html">Contato</a></li>
+     </ul>
+   </nav>
+ </header>
+
+<!-- Seção principal da página projetos com seus projetos práticos, descrições e links para página do github. -->
+     
+<main>
+<section class="projects">
+  <h1>Meus Projetos</h1>
+  <p>Aqui vocês encontrarão alguns dos projetos que venho desenvolvendo, com detalhes sobre cada um deles.</p>
+</section>
+
+<section class="project_list">
+  
+  <div class="project-box">
+    <h3>Cofrinho Digital - Uninter</h3>
+    <p>Projeto acadêmico da disciplina de Programação Orientada a Objetos. Trata-se de um cofrinho digital com funcionalidades para adicionar, remover e consultar moedas, além de converter para reais.</p>
+    <button class="btn_link" onclick="abrirLink(1)">Link do Código</button>
+  </div>
+
+  <div class="project-box">
+    <h3>Desafio Conta Terminal - DIO Java Básico</h3>
+    <p>Aplicação em Java que simula a abertura de uma conta bancária, praticando o uso de Scanner, entrada/saída de dados e concatenação de strings.</p>
+    <button class="btn_link" onclick="abrirLink(2)">Link do Código</button>
+  </div>
+
+  <div class="project-box">
+    <h3>Banco Projeto - DIO</h3>
+    <p>Sistema bancário simples feito com Java, aplicando modelagem de classes, listas, abstração e interfaces. Projeto prático para consolidar POO.</p>
+    <button class="btn_link" onclick="abrirLink(3)">Link do Código</button>
+  </div>
+</section>
+  </main>
+    
+    <!-- Rodapé com links para seções, ícones sociais (GitHub, LinkedIn, Pinterest) e texto de direitos autorais com ano atual via JavaScript. -->
+    
+    <footer>
+      <div class= "links">
+        <a href="https://github.com/dener-fonseca" class="github_link">
+          
+          <img src="/assets/github-icon.png" alt="Meu Github" class="github_image" />
+        </a>
+        
+        <a href="https://www.linkedin.com/in/dener-fonseca" class="linkedin_link">
+          
+          <img src="/assets/linkedin-icon.png" alt="Meu LinkedIn" class="linkedin_image" />
+        </a>
+       
+        <a href="https://www.pinterest.com/denerfonseca1995" class="pinterest_link">
+         
+          <img src="/assets/pinterest-icon.png" alt="Meu Pintest" class="linkedin_image" />
+        </a>
+      </div>
+      
+      <div class = "rights">
+         <p class="rights-info">
+        © Dener Xisto da Fonseca. Todos os direitos reservados. <script>document.write(new Date().getFullYear())</script></p>
+      </div>
+     </footer>
+     
+     <script src="js/scripts.js"></script>
+  </body>
+  </html>

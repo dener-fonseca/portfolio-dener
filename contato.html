@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Cabeçalho do documento, onde ficam metadados e links para estilos e scripts.-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Contato</title>
+  <meta name="description" content="Entre em contato com Dener Fonseca por meio do formulário ou links diretos para e-mail e redes profissionais. Retorno garantido o mais breve possível." />
+</head>
+
+  <!-- Início do corpo da página, onde o conteúdo visível é colocado. -->
+
+<body>
+
+    <!-- Cabeçalho principal do site que contém o logo e os links de navegação. -->
+  
+ <header>
+   <img src="assets/dener-comic.png" alt="logo Image" class="comic" />
+   <h4 class="name">Dener Fonseca</h4>
+   <nav class="heading">
+     <ul>
+       <li><a href="index.html">Página Inicial</a></li>
+       <li><a href="formacao.html">Minha Formação</a></li>
+       <li><a href="projetos.html">Meus Projetos</a></li>
+       <li><a href="contato.html">Contato</a></li>
+     </ul>
+   </nav>
+ </header>
+
+     <!-- Seção principal da página contato coma formulário. -->
+
+<main>
+  <section class="contact">
+    <div>
+      <h1>Contato </h1>
+      <p>Sintam-se à vontade para entrar em contato comigo preenchendo o formulário abaixo. Responderei o mais breve possível.</p>
+    </div>
+
+    <div class="contact_form-content">
+      <img src="/assets/moon-icon.jpg" alt="Moon" class="contact_form-image" />
+      <form>
+        <label for="name" class="contact_form-field-label">Nome</label>
+        <input placeholder="Digite seu nome" type="text" class="contact_form-field-input" id="name" />
+
+        <label for="email" class="contact_form-field-label">Email</label>
+        <input placeholder="Digite seu Email" type="email" class="contact_form-field-input" id="email" />
+
+        <label for="message" class="contact_form-field-label">Mensagem</label>
+        <textarea placeholder="Escreva sua Mensagem" name="message" id="message" cols="30" rows="10" class="contact_form-field-input"></textarea>
+
+        <button type="submit" class="contact_form-button-submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+    <!-- Rodapé com links para seções, ícones sociais (GitHub, LinkedIn, Pinterest) e texto de direitos autorais com ano atual via JavaScript. -->
+
+<footer>
+  <div class="links">
+    <a href="https://github.com/dener-fonseca" class="github_link">
+      <img src="/assets/github-icon.png" alt="Meu Github" class="github_image" />
+    </a>
+    
+    <a href="https://www.linkedin.com/in/dener-fonseca" class="linkedin_link">
+      <img src="/assets/linkedin-icon.png" alt="Meu LinkedIn" class="linkedin_image" />
+    </a>
+    
+    <a href="https://www.pinterest.com/denerfonseca1995" class="pinterest_link">
+      <img src="/assets/pinterest-icon.png" alt="Meu Pinterest" class="pinterest_image" />
+    </a>
+  </div>
+
+  <div class="rights">
+    <p class="rights-info">© Dener Xisto da Fonseca. Todos os direitos reservados. <script>document.write(new Date().getFullYear())</script></p>
+  </div>
+</footer>
+</body>
+</html>
