@@ -57,7 +57,7 @@ Design responsivo para diferentes tamanhos de tela
 
 🌐 Acesse o Projeto
 
-Repositório no GitHub: https://github.com/Dener-Fonseca/portfolio-dener
+Repositório no GitHub: https://github.com/dener-fonseca/portfolio-dener
 
 Site publicado na Vercel: https://portfolio-dener.vercel.app
 
