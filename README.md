@@ -1,6 +1,9 @@
 Portfólio Pessoal - Uninter
 
-Este é um projeto acadêmico desenvolvido para a disciplina Aplicações Web e Móveis da Universidade UNINTER Centro Universitário Internacional. O objetivo era construir uma página web pessoal utilizando apenas HTML, CSS e JavaScript, com no mínimo 4 páginas interligadas, apresentando informações pessoais e profissionais, além de um formulário de contato funcional.
+Este é um projeto acadêmico desenvolvido para a disciplina Aplicações Web e Móveis da Universidade UNINTER - Centro Universitário Internacional. O objetivo era construir uma página web pessoal utilizando apenas HTML, CSS e JavaScript, com no mínimo 4 páginas interligadas, apresentando informações pessoais e profissionais, além de um formulário de contato funcional.
+
+
+---
 
 🛠 Tecnologias e Ferramentas Utilizadas
 
@@ -17,6 +20,9 @@ GitHub: Utilizado para versionamento e hospedagem do repositório do projeto.
 Vercel: Plataforma utilizada para publicar o site na web.
 
 
+
+---
+
 📄 Estrutura do Projeto
 
 O portfólio é composto por 4 páginas principais, interligadas entre si:
@@ -29,6 +35,9 @@ Projetos: Lista de projetos com links interativos para os repositórios no GitHu
 
 Contato: Formulário para envio de mensagens com campos validados via HTML.
 
+
+
+---
 
 ✨ Funcionalidades
 
@@ -43,12 +52,18 @@ Botões interativos com JavaScript para redirecionamento a projetos externos.
 Design responsivo para diferentes tamanhos de tela.
 
 
+
+---
+
 🌐 Acesse o Projeto
 
 Repositório no GitHub: github.com/Dener-Fonseca/portfolio-dener
 
 Site publicado na Vercel: portfolio-dener.vercel.app
 
+
+
+---
 
 🎯 Objetivos do Projeto
 
@@ -60,6 +75,9 @@ Praticar a navegação entre páginas e a criação de um formulário de contato
 
 Estimular a criatividade no layout e organização da informação.
 
+
+
+---
 
 ✍️ Contribuindo
 
@@ -77,6 +95,9 @@ Este é um projeto pessoal desenvolvido como trabalho acadêmico, mas sugestões
 4. Envie um pull request para revisão
 
 
+
+
+---
 
 📞 Contato
 
